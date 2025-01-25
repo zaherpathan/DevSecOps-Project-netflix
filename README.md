@@ -161,7 +161,8 @@ Goto Manage Jenkins → Tools → Install JDK(17) and give name jdk as jdk17 ver
 
 Create the token  -> go to sonarqube and click on security -> there u will see an option in administration as token then click on update token -> give the name to the token generate and copy
 
-Goto Jenkins Dashboard → Manage Jenkins → Credentials → Add Secret Text. It should look like this
+Goto Jenkins Dashboard → Manage Jenkins → Credentials → click on systems-> click on global credentials -> click on add credentials-> 
+then in kind select > secret text -> add or paste token in the secret text -- Add Secret Text. It should look like this
 
 After adding sonar token
 
