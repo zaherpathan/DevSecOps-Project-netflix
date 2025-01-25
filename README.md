@@ -154,12 +154,12 @@ Install below plugins
 
 ### **Configure Java and Nodejs in Global Tool Configuration**
 
-Goto Manage Jenkins → Tools → Install JDK(17) and NodeJs(16)→ Click on Apply and Save
+Goto Manage Jenkins → Tools → Install JDK(17) and give name jdk as jdk17 version as 17.0.8.1+1 and  and NodeJs(16) give name as node16  and version as 16.2.0 → Click on Apply and Save
 
 
 ### SonarQube
 
-Create the token
+Create the token  -> go to sonarqube and click on security -> there u will see an option in administration as token then click on update token -> give the name to the token generate and copy
 
 Goto Jenkins Dashboard → Manage Jenkins → Credentials → Add Secret Text. It should look like this
 
