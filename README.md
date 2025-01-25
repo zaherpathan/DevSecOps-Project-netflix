@@ -173,6 +173,10 @@ Click on Apply and Save
 **Global Tool Configuration** is used to configure different tools that we install using Plugins
 
 We will install a sonar scanner in the tools.
+ for that go to manage jenkins-> systems -> search for sonarscanner by cntrl f -> click on add sonarqube -> in the server give the url of the publicip of the instance where sonar 
+  is running and port9000 for example-> http://54.144.213.145:9000/     -> in server authentication select the token you have made.
+
+  Now you have to add the sonarqube tool -- > go to manage jenkins > tools -> scroll down and click on add sonarqube scanner -> gove the sonar-scanner as it is apply and save 
 
 Create a Jenkins webhook
 
